@@ -1,0 +1,6 @@
+# external requirements
+pre-commit==2.15.0
+flake8==4.0.1
+pytest
+pylint
+lark
