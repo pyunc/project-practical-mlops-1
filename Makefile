@@ -1,8 +1,8 @@
-
 install:
-	python -m venv .env
-	pip install --upgrade pip &&\
-	pip install -r requirements.txt\
+	python -m venv .env && \
+	. .env/bin/activate && \
+	pip install --upgrade pip && \
+	pip install -r requirements.txt
 	
 lint:
 	pylint --disable=R,C hello.py
